@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Pain Nation</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="email">codechefamit@gmail.com</string>
 </resources>
