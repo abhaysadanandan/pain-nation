@@ -49,28 +49,31 @@
         android:orientation="vertical"
         android:layout_marginBottom="50dp">
 
-        <Button
+        <ImageButton
             android:text="Facebook Login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnFB"
-            android:background="@drawable/btn_facebook"
             android:layout_gravity="center"
-            android:minWidth="250dp"
+            android:src="@drawable/fb"
+            android:scaleType="fitXY"
+            android:background="#00FFFFFF"
             />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="30px"
             android:background="#00FFFFFF" />
-        <Button
+        <ImageButton
             android:text="Google Login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnGmail"
             android:layout_gravity="center"
-            android:minWidth="250dp"
-            android:background="@drawable/btn_gmail"/>
+            android:src="@drawable/gmail"
+            android:scaleType="fitXY"
+            android:background="#00FFFFFF"
+            />
     </LinearLayout>
 
 </FrameLayout>
