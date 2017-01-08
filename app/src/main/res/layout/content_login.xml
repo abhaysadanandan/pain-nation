@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:text="Welcome to"
             android:textSize="30sp"
+            android:id="@+id/txtWelcome"
             />
     <LinearLayout
         android:layout_width="wrap_content"
@@ -33,12 +34,14 @@
             android:layout_height="wrap_content"
             android:text="Pain "
             style="@style/txtSemiBoldRed"
+            android:id="@+id/txtPain"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nation"
             style="@style/txtSemiBoldWhite"
+            android:id="@+id/txtNation"
             />
     </LinearLayout>
     </LinearLayout>
@@ -55,9 +58,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnFB"
             android:layout_gravity="center"
-            android:src="@drawable/fb"
-            android:scaleType="fitXY"
-            android:background="#00FFFFFF"
+            android:background="@drawable/btn_fb"
             />
 
         <View
@@ -70,9 +71,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnGmail"
             android:layout_gravity="center"
-            android:src="@drawable/gmail"
-            android:scaleType="fitXY"
-            android:background="#00FFFFFF"
+            android:background="@drawable/btn_gmail"
             />
     </LinearLayout>
 
