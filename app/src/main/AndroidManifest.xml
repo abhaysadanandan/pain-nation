@@ -18,6 +18,10 @@
             </intent-filter>
 
         </activity>
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
