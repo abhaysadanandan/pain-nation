@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="false"
-    tools:context="in.painnation.mobile.LoginActivity">
-    <include layout="@layout/content_login"
-        android:id="@+id/login_coordinator_layout" />
+    class="in.painnation.mobile.login.LoginFragment"
+    tools:context="in.painnation.mobile.login.LoginActivity"
+    android:orientation="vertical">
 
-</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
